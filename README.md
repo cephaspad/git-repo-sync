@@ -1,7 +1,7 @@
 # Git Repo Sync
 
-![build](https://github.com/wangchucheng/git-repo-sync/workflows/build/badge.svg)
-![license](https://img.shields.io/github/license/wangchucheng/git-repo-sync)
+![build](https://github.com/cephaspad/git-repo-sync/workflows/build/badge.svg)
+![license](https://img.shields.io/github/license/cephaspad/git-repo-sync)
 
 Git Repo Sync enables you to synchronize code to other code management platforms, such as GitLab, Gitee, etc.
 
@@ -24,9 +24,9 @@ jobs:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0
-    - uses: wangchucheng/git-repo-sync@v0.1.0
+    - uses: cephaspad/git-repo-sync@v0.1.0
       with:
-        # Such as https://github.com/wangchucheng/git-repo-sync.git
+        # Such as https://github.com/cephaspad/git-repo-sync.git
         target-url: <target-url>
         # Such as wangchucheng
         target-username: <target-username>
